@@ -30,5 +30,5 @@ The code is a script calls the Vertex AI API to return GenAI answers to question
 
 
 # Run the app
-npm run genAi "Your question"
-Example: npm run genAi "What year was NodeJS introduced?"
+- npm run genAi "Your question"
+- Example: npm run genAi "What year was NodeJS introduced?"
