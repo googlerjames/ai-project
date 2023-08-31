@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "googleapis": "^126.0.1",
+    "path": "^0.12.7",
+    "run-func": "^3.0.0"
+  },
+  "name": "ai-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "genAi": "run-func index.js getGenAi"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
