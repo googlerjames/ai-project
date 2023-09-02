@@ -32,3 +32,19 @@ The code is a script calls the Vertex AI API to return GenAI answers to question
 # Run the app
 - npm run genAi "Your question"
 - Example: npm run genAi "What year was NodeJS introduced?"
+
+# Adding Context
+You may want to use data that you provide for example getting information about text you provide. 
+This is done by passing text in the second variable.
+
+If you ask:
+run-func index.js getGenAi Who designed the Falcon 9?
+Answer: The Falcon 9 was designed by SpaceX.
+
+
+However if you add context:
+run-func index.js getGenAi Who designed the Falcon 9? The designer of the Falcon 9 rocket is James Ferreira
+Answer: James Ferreira is the designer of the Falcon 9 rocket.
+
+Read more about how you can configure the prompt https://cloud.google.com/vertex-ai/docs/generative-ai/text/text-overview
+
